@@ -32,6 +32,8 @@ otra tecnología.
 
 ## 🚀 Demo
 
+[Demo publicado en render](https://task-manager-vue.vercel.app/)
+
 Usuarios de prueba:
 
 -   **Admin** → `admin@demo.com`\
@@ -86,13 +88,6 @@ La app estará disponible en http://localhost:8080
 -   Docker (deploy)
 
 ------------------------------------------------------------------------
-
-## 🧪 Testing
-
-Unit tests: npm run test:unit\
-Coverage: npm run test:coverage\
-E2E: npx playwright install && npx playwright test
-
 ## 👨‍💻 Autor
 
 Desarrollado por **Luis Guananga**\
