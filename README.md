@@ -44,10 +44,14 @@ Usuarios de prueba:
 
 ## 🗂️ Estructura del proyecto
 
-src/ app/ \# bootstrap de la app presentation/ \# UI, router, stores
-domain/ \# entidades, repos, casos de uso infrastructure/ \# fake
-repos + realtime ioc.ts \# inyección de dependencias main.ts App.vue
-
+    src/
+    │── app/              # Bootstrap y configuración principal de la aplicación
+    │── presentation/     # Capa de presentación (UI, router, stores y componentes Vue)
+    │── domain/           # Capa de dominio: entidades, repositorios y casos de uso (reglas de negocio)
+    │── infrastructure/   # Implementaciones concretas (repositorios fake, integración con APIs, realtime, etc.)
+    │── ioc.ts            # Inyección de dependencias (IoC Container para orquestar las capas)
+    │── main.ts           # Punto de entrada de la aplicación
+    │── App.vue           # Componente raíz
 ------------------------------------------------------------------------
 
 ## ⚡ Instalación y ejecución
