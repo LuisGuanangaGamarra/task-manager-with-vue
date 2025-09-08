@@ -25,8 +25,6 @@ otra tecnología.
 -   🎨 **UI moderna** con **TailwindCSS**.
 -   📦 **Dockerfile listo** para despliegue en Render, Vercel o
     cualquier servicio compatible.
--   🧪 **Testing preparado** (Vitest y Playwright listos para
-    configurar).
 
 ------------------------------------------------------------------------
 
@@ -84,7 +82,6 @@ La app estará disponible en http://localhost:8080
 -   Pinia (estado global)
 -   Vue Router (navegación y guards)
 -   TailwindCSS (estilos)
--   Vitest + Playwright (testing)
 -   Docker (deploy)
 
 ------------------------------------------------------------------------
